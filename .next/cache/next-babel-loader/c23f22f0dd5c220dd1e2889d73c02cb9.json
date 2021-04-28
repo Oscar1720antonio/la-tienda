@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { combineReducers } from 'redux';\nimport newsReducer from './newsReducer';\nvar rootReducer = combineReducers({\n  newsDetails: newsReducer\n});\nexport default rootReducer;","map":null,"metadata":{},"sourceType":"module"}
